@@ -1,0 +1,14 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  pool: 5
+  username: root
+
+development:
+  <<: *default
+  database: community-activity_development
+
+test:
+  <<: *default
+  database: community-activity_test
