@@ -7,6 +7,9 @@ gem 'pg', '~> 0.18'
 gem 'puma', '~> 2.14'
 gem 'foreman', '~> 0.78'
 gem 'uglifier', '~> 2.7'
+gem 'activeadmin', '~> 1.0.0.pre2'
+gem 'active_admin_sidebar', '0.1.0.rc2'
+gem 'devise'
 
 group :production do
   gem 'rails_12factor'
