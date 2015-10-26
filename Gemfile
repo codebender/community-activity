@@ -12,11 +12,14 @@ group :production do
   gem 'rails_12factor'
 end
 
+group :test do
+  gem 'rspec-rails', '~> 3.3'
+  gem 'shoulda-matchers', '~> 3.0'
+end
+
 group :development, :test do
   gem 'byebug', '~> 6.0'
   gem 'dotenv-rails'
-  gem 'rspec-rails', '~> 3.3'
-  gem 'shoulda-matchers', '~> 3.0'
 end
 
 group :development do
